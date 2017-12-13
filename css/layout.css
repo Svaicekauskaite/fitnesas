@@ -1,0 +1,184 @@
+body header .support {
+  background-color: #333333;
+}
+body header .support .container {
+  display: flex;
+  justify-content: space-between;
+}
+body header .support .container p {
+  padding: 10px 0;
+  color: #eeeeee;
+}
+body header .support .container p a {
+  color: #eeeeee;
+  margin-left: 20px;
+  display: inline-block;
+}
+@media only screen and (max-width: 400px) {
+  body header .support .container p a {
+    margin-left: 10px;
+  }
+}
+body header nav.navbar-light {
+  background-color: #f28858;
+}
+body header nav.navbar-light .navbar-toggler {
+  border: 1px solid #f0f8fb;
+  outline: none;
+}
+body header nav.navbar-light .navbar-toggler .navbar-toggle-icon .icon-bar {
+  background-color: #f0f8fb;
+  height: 3px;
+  width: 25px;
+  margin: 5px 0;
+  display: block;
+}
+body header nav.navbar-light .navbar-brand {
+  margin-left: 50px;
+}
+body header nav.navbar-light .navbar-nav .nav-item {
+  text-align: right;
+}
+body header nav.navbar-light .navbar-nav .nav-item .nav-link {
+  color: #ffffff;
+  font-size: 14px;
+  margin-left: 5px;
+}
+body header nav.navbar-light .navbar-nav .nav-item .nav-link:hover {
+  color: #333333;
+}
+@media only screen and (min-width: 992px) {
+  body header nav.navbar-light .navbar-nav .nav-item .nav-link:hover,
+  body header nav.navbar-light .navbar-nav .nav-item .nav-link.active {
+    color: #ffffff;
+    background-color: #cd8756;
+    border-bottom: 2px solid #b66740;
+    border-radius: 3px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  body header nav.navbar-light .navbar-nav .nav-item {
+    margin-left: 0;
+  }
+  body header nav.navbar-light .navbar-nav .nav-item .nav-link {
+    margin-right: 5px;
+  }
+}
+body .content {
+  background-color: #c8d8d7;
+}
+body .content .container {
+  padding: 0 25px;
+  max-width: 1010px;
+}
+body .content .container .carousel-inner .carousel-item .carousel-text {
+  float: left;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+@media only screen and (max-width: 900px) {
+  body .content .container .carousel-inner .carousel-item .carousel-text {
+    float: none;
+    text-align: center;
+    margin-left: 0;
+  }
+}
+body .content .container .carousel-inner .carousel-item .carousel-text h2,
+body .content .container .carousel-inner .carousel-item .carousel-text p {
+  background-color: #8d9798;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+body .content .container .carousel-inner .carousel-item .carousel-text h2 {
+  font-size: 18px;
+  padding: 10px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+body .content .container .carousel-inner .carousel-item .carousel-text p {
+  font-size: 16px;
+  padding: 5px;
+}
+body .content .container .carousel-inner .carousel-item .carousel-text li {
+  margin-top: 10px;
+}
+body .content .container .carousel-inner .carousel-item .carousel-text button {
+  background-color: #f38758;
+  border-radius: 5px;
+  border: none;
+  border-bottom: 2px solid #b05f34;
+  padding: 10px 15px;
+  outline: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+body .content .container .carousel-inner .carousel-item img {
+  margin-top: 50px;
+  margin-right: 50px;
+  width: 40%;
+  float: right;
+}
+@media only screen and (max-width: 900px) {
+  body .content .container .carousel-inner .carousel-item img {
+    float: none;
+    text-align: center;
+    margin: 50px auto;
+  }
+}
+body .content .container .carousel-control-prev {
+  left: -25px;
+  width: 25px;
+}
+body .content .container .carousel-control-next {
+  right: -25px;
+  width: 25px;
+}
+body .content .container .carousel-control-icon {
+  background-color: #ec783f;
+  width: 25px;
+  height: 35px;
+}
+@media only screen and (min-width: 960px) {
+  body .content .container .carousel-control-icon {
+    border-radius: 5px !important;
+  }
+}
+body .content .container .carousel-control-icon.carousel-control-prev-icon {
+  border-radius: 0 5px 5px 0;
+}
+body .content .container .carousel-control-icon.carousel-control-next-icon {
+  border-radius: 5px 0 0 5px;
+}
+body .bottom-content {
+  position: relative;
+  padding: 50px;
+}
+body .bottom-content:before {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  z-index: 4;
+  margin: 0 auto;
+  border-left: 600px solid transparent;
+  border-right: 600px solid transparent;
+  border-top: 50px solid #c8d8d7;
+}
+@media only screen and (max-width: 1250px) {
+  body .bottom-content:before {
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+  }
+}
+body .bottom-content .card {
+  border: none;
+  text-align: center;
+}
